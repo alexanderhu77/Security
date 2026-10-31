@@ -1,5 +1,5 @@
-GHSA,Title,CWE,Vector String,CVSS
-GHSA-f5v5-272f-4q4f,HTML Injection via Unvalidated 'bgImg' Query Parameter,CWE-79,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N,6.1
-GHSA-43g7-r6hp-ccf8,Stored HTML Injection via PGN Annotator Tag in Studies,CWE-79,CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N,5.4
-GHSA-25xh-q7f9-6v6v,Unauthenticated Microphone Eavesdropping via Guessable Voice Chat Peer IDs,CWE-306,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:L,8.2
-GHSA-hm8f-rrm8-728c,HTML injection in the blog editor via unescaped image alt description,CWE-79,CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N,5.4
+GHSA,CVE,Title,CWE,Vector String,CVSS
+GHSA-f5v5-272f-4q4f,,HTML Injection via Unvalidated 'bgImg' Query Parameter,CWE-79,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N,6.1
+GHSA-43g7-r6hp-ccf8,CVE-2026-103974,Stored HTML Injection via PGN Annotator Tag in Studies,CWE-79,CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N,5.4
+GHSA-25xh-q7f9-6v6v,,Unauthenticated Microphone Eavesdropping via Guessable Voice Chat Peer IDs,CWE-306,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:L,8.2
+GHSA-hm8f-rrm8-728c,,HTML injection in the blog editor via unescaped image alt description,CWE-79,CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N,5.4
