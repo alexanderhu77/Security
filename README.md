@@ -1,4 +1,4 @@
-# Published Security Advisories
+# Published/Public Security Advisories
 
 * [GHSA-f5v5-272f-4q4f](https://github.com/lichess-org/lila/security/advisories/GHSA-f5v5-272f-4q4f): HTML Injection via Unvalidated 'bgImg' Query Parameter
 * [GHSA-43g7-r6hp-ccf8](https://github.com/lichess-org/lila/security/advisories/GHSA-43g7-r6hp-ccf8): Stored HTML Injection via PGN Annotator Tag in Studies ([CVE-2026-103974](https://www.cve.org/CVERecord?id=CVE-2026-103974))
