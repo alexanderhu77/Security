@@ -7,3 +7,4 @@
 * [GHSA-x554-vrpx-4q8m](https://github.com/lichess-org/lila/security/advisories/GHSA-x554-vrpx-4q8m): Fishnet client keys exposed in game analysis JSON
 * [GHSA-m2c6-9p38-6473](https://github.com/lichess-org/lila/security/advisories/GHSA-m2c6-9p38-6473): Non-moderators can delete any user's messages from all public chats via chat timeout
 * [GHSA-2rpf-mmrc-v68p](https://github.com/lichess-org/lila/security/advisories/GHSA-2rpf-mmrc-v68p): Missing authorization on the Puzzle Racer websocket lets anyone read private team chat
+* [GHSA-gj2c-24vm-2v39](https://github.com/lichess-org/lila/security/advisories/GHSA-gj2c-24vm-2v39): Stored XSS in blog post structured data via unescaped intro
