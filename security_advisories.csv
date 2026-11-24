@@ -7,3 +7,5 @@ GHSA-x554-vrpx-4q8m,,Fishnet client keys exposed in game analysis JSON,CVSS:3.1/
 GHSA-m2c6-9p38-6473,,Non-moderators can delete any user's messages from all public chats via chat timeout,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N,4.3,Medium,CWE-862
 GHSA-2rpf-mmrc-v68p,,Missing authorization on the Puzzle Racer websocket lets anyone read private team chat,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,7.5,High,CWE-862
 GHSA-gj2c-24vm-2v39,,Stored XSS in blog post structured data via unescaped intro,CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:N,8.7,High,CWE-79
+GHSA-3m7f-j2c6-6x4x,,CSRF: a custom link can send authenticated POST requests to any route,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N,6.5,Medium,CWE-352
+GHSA-gx5m-2j8r-9jwf,,Magic login tokens can still be renewed indefinitely and survive credential recovery,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N,6.8,Medium,CWE-613

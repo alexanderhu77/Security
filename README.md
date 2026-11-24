@@ -10,3 +10,5 @@
 * [GHSA-m2c6-9p38-6473](https://github.com/lichess-org/lila/security/advisories/GHSA-m2c6-9p38-6473): Non-moderators can delete any user's messages from all public chats via chat timeout
 * [GHSA-2rpf-mmrc-v68p](https://github.com/lichess-org/lila/security/advisories/GHSA-2rpf-mmrc-v68p): Missing authorization on the Puzzle Racer websocket lets anyone read private team chat
 * [GHSA-gj2c-24vm-2v39](https://github.com/lichess-org/lila/security/advisories/GHSA-gj2c-24vm-2v39): Stored XSS in blog post structured data via unescaped intro
+* [GHSA-3m7f-j2c6-6x4x](https://github.com/lichess-org/lila/security/advisories/GHSA-3m7f-j2c6-6x4x): CSRF: a custom link can send authenticated POST requests to any route
+* [GHSA-gx5m-2j8r-9jwf](https://github.com/lichess-org/lila/security/advisories/GHSA-gx5m-2j8r-9jwf): Magic login tokens can still be renewed indefinitely and survive credential recovery
