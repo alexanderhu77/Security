@@ -9,3 +9,4 @@ GHSA-2rpf-mmrc-v68p,,Missing authorization on the Puzzle Racer websocket lets an
 GHSA-gj2c-24vm-2v39,,Stored XSS in blog post structured data via unescaped intro,CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:N,8.7,High,CWE-79
 GHSA-3m7f-j2c6-6x4x,,CSRF: a custom link can send authenticated POST requests to any route,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N,6.5,Medium,CWE-352
 GHSA-gx5m-2j8r-9jwf,,Magic login tokens can still be renewed indefinitely and survive credential recovery,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N,6.8,Medium,CWE-613
+GHSA-rxpx-6m5g-qm2w,,Lobby user impersonation and DOS via unvalidated SRI,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H,8.2,High,CWE-290

@@ -58,4 +58,9 @@
     <td nowrap>Magic login tokens can still be renewed indefinitely and survive credential recovery</td>
     <td nowrap>Medium</td>
   </tr>
+  <tr>
+    <td nowrap><a href="https://github.com/lichess-org/lila-ws/security/advisories/GHSA-rxpx-6m5g-qm2w">GHSA-rxpx-6m5g-qm2w</a></td>
+    <td nowrap>Lobby user impersonation and DOS via unvalidated SRI</td>
+    <td nowrap>High</td>
+  </tr>
 </table>
