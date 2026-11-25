@@ -1,12 +1,12 @@
-GHSA,CVE,Title,Vector String,CVSS,Severity,CWE
-GHSA-f5v5-272f-4q4f,,HTML Injection via Unvalidated 'bgImg' Query Parameter,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N,6.1,Medium,CWE-79
-GHSA-43g7-r6hp-ccf8,CVE-2026-103974,Stored HTML Injection via PGN Annotator Tag in Studies,CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N,5.4,Medium,CWE-79
-GHSA-25xh-q7f9-6v6v,,Unauthenticated Microphone Eavesdropping via Guessable Voice Chat Peer IDs,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:L,8.2,High,CWE-306
-GHSA-hm8f-rrm8-728c,,HTML injection in the blog editor via unescaped image alt description,CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N,5.4,Medium,CWE-79
-GHSA-x554-vrpx-4q8m,,Fishnet client keys exposed in game analysis JSON,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N,6.5,Medium,CWE-212
-GHSA-m2c6-9p38-6473,,Non-moderators can delete any user's messages from all public chats via chat timeout,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N,4.3,Medium,CWE-862
-GHSA-2rpf-mmrc-v68p,,Missing authorization on the Puzzle Racer websocket lets anyone read private team chat,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,7.5,High,CWE-862
-GHSA-gj2c-24vm-2v39,,Stored XSS in blog post structured data via unescaped intro,CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:N,8.7,High,CWE-79
-GHSA-3m7f-j2c6-6x4x,,CSRF: a custom link can send authenticated POST requests to any route,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N,6.5,Medium,CWE-352
-GHSA-gx5m-2j8r-9jwf,,Magic login tokens can still be renewed indefinitely and survive credential recovery,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N,6.8,Medium,CWE-613
-GHSA-rxpx-6m5g-qm2w,,Lobby user impersonation and DOS via unvalidated SRI,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H,8.2,High,CWE-290
+GHSA,CVE,Repository,Title,Vector String,CVSS,Severity,CWE
+GHSA-f5v5-272f-4q4f,,lichess-org/lila,HTML Injection via Unvalidated 'bgImg' Query Parameter,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N,6.1,Medium,CWE-79
+GHSA-43g7-r6hp-ccf8,CVE-2026-103974,lichess-org/lila,Stored HTML Injection via PGN Annotator Tag in Studies,CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N,5.4,Medium,CWE-79
+GHSA-25xh-q7f9-6v6v,,lichess-org/lila,Unauthenticated Microphone Eavesdropping via Guessable Voice Chat Peer IDs,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:L,8.2,High,CWE-306
+GHSA-hm8f-rrm8-728c,,lichess-org/lila,HTML injection in the blog editor via unescaped image alt description,CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N,5.4,Medium,CWE-79
+GHSA-x554-vrpx-4q8m,,lichess-org/lila,Fishnet client keys exposed in game analysis JSON,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N,6.5,Medium,CWE-212
+GHSA-m2c6-9p38-6473,,lichess-org/lila,Non-moderators can delete any user's messages from all public chats via chat timeout,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N,4.3,Medium,CWE-862
+GHSA-2rpf-mmrc-v68p,,lichess-org/lila,Missing authorization on the Puzzle Racer websocket lets anyone read private team chat,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,7.5,High,CWE-862
+GHSA-gj2c-24vm-2v39,,lichess-org/lila,Stored XSS in blog post structured data via unescaped intro,CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:N,8.7,High,CWE-79
+GHSA-3m7f-j2c6-6x4x,,lichess-org/lila,CSRF: a custom link can send authenticated POST requests to any route,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N,6.5,Medium,CWE-352
+GHSA-gx5m-2j8r-9jwf,,lichess-org/lila,Magic login tokens can still be renewed indefinitely and survive credential recovery,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N,6.8,Medium,CWE-613
+GHSA-rxpx-6m5g-qm2w,,lichess-org/lila-ws,Lobby user impersonation and DOS via unvalidated SRI,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H,8.2,High,CWE-290
