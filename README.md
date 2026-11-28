@@ -75,4 +75,10 @@
     <td nowrap>Lobby user impersonation and DOS via unvalidated SRI</td>
     <td nowrap>High</td>
   </tr>
+  <tr>
+    <td nowrap><a href="https://github.com/lichess-org/lila/security/advisories/GHSA-grr9-822p-jwvx">GHSA-grr9-822p-jwvx</a></td>
+    <td nowrap>lichess-org/lila</td>
+    <td nowrap>Broadcast contributors can corrupt a broadcast they don't own via the image-delete endpoint</td>
+    <td nowrap>Medium</td>
+  </tr>
 </table>

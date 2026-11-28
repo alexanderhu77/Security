@@ -10,3 +10,4 @@ GHSA-gj2c-24vm-2v39,,lichess-org/lila,Stored XSS in blog post structured data vi
 GHSA-3m7f-j2c6-6x4x,,lichess-org/lila,CSRF: a custom link can send authenticated POST requests to any route,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N,6.5,Medium,CWE-352
 GHSA-gx5m-2j8r-9jwf,,lichess-org/lila,Magic login tokens can still be renewed indefinitely and survive credential recovery,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N,6.8,Medium,CWE-613
 GHSA-rxpx-6m5g-qm2w,,lichess-org/lila-ws,Lobby user impersonation and DOS via unvalidated SRI,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H,8.2,High,CWE-290
+GHSA-grr9-822p-jwvx,,lichess-org/lila,Broadcast contributors can corrupt a broadcast they don't own via the image-delete endpoint,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:H,6.5,Medium,CWE-915
